@@ -21,5 +21,11 @@ namespace Лаборатораная_работа_4_проект
         {
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string userName = Environment.UserName;
+            label1.Text = userName;
+        }
     }
 }
